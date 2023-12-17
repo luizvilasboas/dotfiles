@@ -42,4 +42,4 @@ If you would like to contribute to this project, please feel free to open a pull
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/olooeez/dotfiles/blob/main/LICENSE) License. See the LICENSE file for details.
+This project is licensed under the [MIT](https://gitlab.com/olooeez/dotfiles/-/blob/main/LICENSE) License. See the LICENSE file for details.
