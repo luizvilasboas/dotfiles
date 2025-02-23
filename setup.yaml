@@ -1,0 +1,65 @@
+system_setup:
+  packages_to_remove:
+    - gnome-tour
+    - snapshot
+    - gnome-calendar
+    - epiphany
+    - gnome-weather
+    - gnome-clocks
+    - gnome-maps
+    - totem
+    - simple-scan
+    - yelp
+    - gnome-user-docs
+    - gnome-contacts
+  packages_to_install:
+    - spotify-launcher
+    - neofetch
+    - steam
+    - keepassxc
+    - git
+    - make
+    - openssh
+    - python-pipx
+    - python-pip
+    - python-virtualenv
+    - openvpn
+    - networkmanager-openvpn
+    - qbittorrent
+    - gparted
+    - vlc
+    - ffmpeg
+  aur_packages_to_install:
+    - visual-studio-code-bin
+    - lens-bin
+    - minecraft-launcher
+  theme_settings:
+    GTK_THEME: "Adwaita:dark"
+    GTK2_RC_FILES: "/usr/share/themes/Adwaita-dark/gtk-2.0/gtkrc"
+    QT_STYLE_OVERRIDE: "Adwaita-Dark"
+  use_flatpak: true
+  setup_docker: true
+  git_config:
+    user_name: "Luiz Felipe de Castro Vilas Boas"
+    user_email: "luizfelipecastrovb@gmail.com"
+    commit_gpgsign: true
+    signing_key: "luizfelipecastrovb@gmail.com"
+  ssh_config:
+    keys_to_add:
+      - ~/.ssh/dev
+      - ~/.ssh/pixforce
+  setup_zsh: true
+  gnome_extensions:
+    - gnome-shell-extension-caffeine
+  flatpak_apps_to_install:
+    - "https://sober.vinegarhq.org/sober.flatpakref"
+  misc:
+    hide_menu_entries:
+      - qv4l2.desktop
+      - htop.desktop
+      - avahi-discover.desktop
+      - bssh.desktop
+      - bvnc.desktop
+      - qvidcap.desktop
+      - nm-connection-editor.desktop
+      - lstopo.desktop
