@@ -21,9 +21,6 @@ plugins=(git)
 
 source "$ZSH/oh-my-zsh.sh"
 
-alias ssh_job="ssh -i ~/.ssh/pixforce"
-alias ssh_personal="ssh -i ~/.ssh/dev"
-
 alias gc="git commit --verbose --message"
 alias gcm="git checkout $(git_main_branch)"
 alias gcb="git checkout -b"
