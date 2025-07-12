@@ -17,7 +17,7 @@ You can use the following options to use the dotfiles:
 To use my configuration files (dotfiles), you must clone this repository with the following command:
 
 ```
-git clone https://gitlab.com/olooeez/dotfiles.git
+git clone https://github.com/luizvilasboas/dotfiles.git
 ```
 
 #### Enter the cloned repository
@@ -42,4 +42,4 @@ If you would like to contribute to this project, please feel free to open a merg
 
 ## License
 
-This project is licensed under the [MIT](https://gitlab.com/olooeez/dotfiles/-/blob/main/LICENSE) License. See the LICENSE file for details.
+This project is licensed under the [MIT](https://github.com/luizvilasboas/dotfiles/blob/main/LICENSE) License. See the LICENSE file for details.
