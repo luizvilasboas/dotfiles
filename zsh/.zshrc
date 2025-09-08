@@ -1,4 +1,4 @@
-export PATH="$HOME/.raku/bin:$HOME/bin:/usr/local/bin:$PATH"
+export PATH="$HOME/.raku/bin:$HOME/bin:/$HOME/.local/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export LANG="pt_BR.UTF-8"
 export ARCHFLAGS="-arch x86_64"
