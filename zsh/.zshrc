@@ -8,7 +8,7 @@ export WALLPAPER_PATH="$HOME/Imagens/Wallpapers"
 zstyle ':omz:update' mode auto
 zstyle ':omz:update' frequency 13
 
-ZSH_THEME="half-life"
+ZSH_THEME="sammy"
 CASE_SENSITIVE="true"
 HYPHEN_INSENSITIVE="true"
 DISABLE_MAGIC_FUNCTIONS="true"
@@ -34,3 +34,7 @@ alias la="ls -A"
 alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
+
+source .zshrc.envs
+
+eval $(keychain --eval pixforce)
