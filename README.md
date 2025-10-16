@@ -1,3 +1,6 @@
+> [!WARNING]
+> I'm currently no longer maintaining any of these dotfiles since I started using [Omarchy](https://omarchy.org/), to see my current settings look at [this](https://github.com/luizvilasboas/omarchy_post_install) repository.
+
 # dotfiles
 
 This is a repository for storing my settings for certain applications (dotfiles) on a code hosting platform.
